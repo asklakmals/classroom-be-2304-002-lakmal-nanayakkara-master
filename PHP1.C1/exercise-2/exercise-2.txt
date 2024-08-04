@@ -1,0 +1,18 @@
+BEGIN
+	NUMBER num
+	INPUT “Enter number”
+	READ num
+		IF num%2 == 0 THEN
+			IF num >= 0 THEN
+				OUTPUT “This is an even number positive”
+			ELSE
+				OUTPUT “This is an even number negative”
+			ENDIF
+		ELSE
+			IF num > 0 THEN
+				OUTPUT “This is an odd number positive”
+			ELSE
+				OUTPUT “This is an odd number negative”
+			ENDIF
+	ENDIF
+END

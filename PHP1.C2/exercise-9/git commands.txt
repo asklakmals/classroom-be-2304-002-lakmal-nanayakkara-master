@@ -1,0 +1,20 @@
+1. Stash changes on my-feature (if there are any uncommitted changes)
+	
+	git stash
+	
+2. Switch to the release-v2 branch
+
+	git checkout release-v2
+
+3. Make the necessary changes and commit them on release-v2
+
+	git add .
+	git commit -m "Quick fix on release-v2"
+
+4.	Switch back to the my-feature branch
+
+	git checkout my-feature
+	
+5. If there were stashed changes, apply them
+
+	git stash pop

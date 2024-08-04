@@ -1,0 +1,11 @@
+BEGIN
+	NUMBER i,j,sum
+	SET i,sum = 0
+	READ j
+	WHILE i<j
+		PRINT i
+		ADD sum and i assign value again to sum
+		INCREMENT i by 1
+	ENDWHILE
+	PRINT "The sum of the natural numbers up to" j “is:” sum
+END

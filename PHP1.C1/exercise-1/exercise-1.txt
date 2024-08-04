@@ -1,0 +1,8 @@
+Step 1: Start
+Step 2: Read 3 numbers say: A, B, C
+Step 3: Find the smaller number between A and B and store it in
+MINAB
+Step 4: Find the smaller number between MINAB and C and store it in
+MIN
+Step 5: Display MIN
+Step 6: Stop

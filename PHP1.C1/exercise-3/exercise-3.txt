@@ -1,0 +1,9 @@
+begin
+	numeric num
+	display “enter number”
+	accept num
+	while num is larger than zero
+		print number
+		decrement num by 1
+	endwhile
+end
